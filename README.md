@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a href="https://nextlevelweek.com/">
+    <img src="public/icons/nlw.svg" alt="NLW"align="right" height="30" />
+</a>
 
-## Getting Started
+# Move<span/>.it
 
-First, run the development server:
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js" alt="Next.js">
+
+Move<span></span>.it é a
+[gamificação](https://pt.wikipedia.org/wiki/Ludifica%C3%A7%C3%A3o)
+da
+[Técnica Pomodoro](https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro)
+com o objetivo de exercitar o corpo durante longos períodos escrevendo código.
+
+O projeto foi desenvolvido durante a [`Next Level Week #4`](https://nextlevelweek.com/) com orientações da @Rocketseat.
+
+## Demonstração
+
+Confira a aplicação em: [moveit-irwin.vercel.app](https://moveit-irwin.vercel.app/).
+
+## Tecnologias
+
+### <img src="https://simpleicons.org/icons/react.svg" alt="Next.js" height="12"> React
+
+### <img src="https://simpleicons.org/icons/typescript.svg" alt="Next.js" height="12"> TypeScript
+
+### <img src="https://simpleicons.org/icons/next-dot-js.svg" alt="Next.js" height="12"> Next.js
+
+## Uso
+
+`TODO`
+
+## Funcionalidades
+
+`TODO`
+
+## Instalação
+
+1. Instale as dependências.
 
 ```bash
-npm run dev
-# or
+yarn
+```
+
+2. Inicie servidor de desenvolvimento.
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Por padrão, acesse a aplicação em http://localhost:3000.
