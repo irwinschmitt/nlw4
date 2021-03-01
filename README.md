@@ -12,11 +12,11 @@ da
 [Técnica Pomodoro](https://pt.wikipedia.org/wiki/T%C3%A9cnica_pomodoro)
 com o objetivo de exercitar o corpo durante longos períodos escrevendo código.
 
+O projeto foi desenvolvido durante a [`Next Level Week #4`](https://nextlevelweek.com/) com orientações da [@Rocketseat](https://github.com/Rocketseat).
+
 > **Gamificação** é o uso de técnicas que utilizam mecânicas e pensamentos orientados a jogos para enriquecer contextos diversos normalmente não relacionados a jogos.
 
 > A **Técnica Pomodoro** é um método de gerenciamento de tempo que consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos.
-
-O projeto foi desenvolvido durante a [`Next Level Week #4`](https://nextlevelweek.com/) com orientações da @Rocketseat.
 
 ## Demonstração
 
