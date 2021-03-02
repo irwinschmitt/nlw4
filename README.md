@@ -22,6 +22,28 @@ O projeto foi desenvolvido durante a [`Next Level Week #4`](https://nextlevelwee
 
 Confira a aplicação em: [moveit-irwin.vercel.app](https://moveit-irwin.vercel.app/).
 
+## Uso
+
+Na tela inicial é possível `iniciar um ciclo` de **25 minutos**.
+
+<p align="center">
+    <img src="./docs/images/1.png" alt="Next.js" width="49.6%">
+    <img src="./docs/images/2.png" alt="Next.js" width="49.6%">
+</p>
+
+Quando o temporizador chegar a **zero**, o usuário receberá uma notificação e um *beep* com um novo desafio para exercitar o corpo.
+
+<p align="center">
+    <img src="./docs/images/3.png" alt="Next.js" width="49.6%">
+    <img src="./docs/images/4.png" alt="Next.js" width="49.6%">
+</p>
+
+Se o usuário conseguir completar o desafio, ganhará a experiência (*xp*) do desafio, podendo subir de nível.
+
+<p align="center">
+    <img src="./docs/images/5.png" alt="Next.js" width="60%">
+</p>
+
 ## Tecnologias
 
 ### <img src="https://simpleicons.org/icons/react.svg" alt="Next.js" height="13"> React
@@ -29,10 +51,6 @@ Confira a aplicação em: [moveit-irwin.vercel.app](https://moveit-irwin.vercel.
 ### <img src="https://simpleicons.org/icons/typescript.svg" alt="Next.js" height="13"> TypeScript
 
 ### <img src="https://simpleicons.org/icons/next-dot-js.svg" alt="Next.js" height="13"> Next.js
-
-## Uso
-
-`TODO`
 
 ## Funcionalidades
 
