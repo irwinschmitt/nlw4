@@ -31,15 +31,15 @@ Confira a aplicação em:
 Na tela inicial é possível `iniciar um ciclo` de **25 minutos**.
 
 <p align="center">
-    <img src="./docs/images/1.png" alt="Next.js" width="49.6%">
-    <img src="./docs/images/2.png" alt="Next.js" width="49.6%">
+    <img src="./docs/images/1.png" alt="Next.js" width="47%">
+    <img src="./docs/images/2.png" alt="Next.js" width="47%">
 </p>
 
 Quando o temporizador chegar a **zero**, o usuário receberá uma notificação e um *beep* com um novo desafio para exercitar o corpo.
 
 <p align="center">
-    <img src="./docs/images/3.png" alt="Next.js" width="49.6%">
-    <img src="./docs/images/4.png" alt="Next.js" width="49.6%">
+    <img src="./docs/images/3.png" alt="Next.js" width="47%">
+    <img src="./docs/images/4.png" alt="Next.js" width="47%">
 </p>
 
 Se o usuário conseguir completar o desafio, ganhará a experiência (*xp*) do desafio, podendo subir de nível.
