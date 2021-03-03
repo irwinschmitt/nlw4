@@ -37,7 +37,7 @@ export function ExperienceBar() {
 
   return (
     <header>
-      <Box display="flex" alignItems="center">
+      <Box py={5} display="flex" alignItems="center">
         <Box minWidth={24}>
           <Typography>0xp</Typography>
         </Box>
