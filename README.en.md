@@ -6,7 +6,7 @@
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"><img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js" alt="Next.js">
 
-### <img src="https://img.icons8.com/dusk/50/000000/translation.png" width="15"/> [`Português (Brasil)`](https://github.com/irwinschmitt/nlw4/blob/main/README.md)
+### [`<img src="https://img.icons8.com/dusk/50/000000/translation.png" width="15"/> Português (Brasil)`](https://github.com/irwinschmitt/nlw4/blob/main/README.md)
 
 Move<span></span>.it is the
 <a href="https://en.wikipedia.org/wiki/Gamification" target="_blank">gamification</a>
