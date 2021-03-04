@@ -8,9 +8,9 @@ import { Countdown } from "../components/Countdown";
 import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 
-import styles from "../styles/pages/Home.module.css";
 import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
+import { Box, Container, Grid, Typography } from "@material-ui/core";
 
 interface HomeProps {
   level: number;
@@ -25,26 +25,30 @@ export default function Home(props: HomeProps) {
       currentExperience={props.currentExperience}
       challengesCompleted={props.challengesCompleted}
     >
-      <div className={styles.container}>
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
+      <Head>
+        <title>Início | Move.it</title>
+      </Head>
 
+      <Container fixed maxWidth="md">
         <ExperienceBar />
 
         <CountdownProvider>
-          <section>
-            <div>
-              <Profile />
-              <CompletedChallenges />
-              <Countdown />
-            </div>
-            <div>
-              <ChallengeBox />
-            </div>
-          </section>
+          <Grid component="main" container justify="center">
+            <Grid item xs={12} md={6}>
+              <Box p={3}>
+                <Profile />
+                <CompletedChallenges />
+                <Countdown />
+              </Box>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Box p={3} height="100%">
+                <ChallengeBox />
+              </Box>
+            </Grid>
+          </Grid>
         </CountdownProvider>
-      </div>
+      </Container>
     </ChallengesProvider>
   );
 }
@@ -54,9 +58,9 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 
   return {
     props: {
-      level: Number(level),
-      currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted),
+      level: Number(level ?? 1),
+      currentExperience: Number(currentExperience ?? 0),
+      challengesCompleted: Number(challengesCompleted ?? 0),
     },
   };
 };
